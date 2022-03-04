@@ -1,25 +1,120 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
 body {
  font-size: 73%;
-
  font-family: Arial, Helvetica, sans-serif;
  background: url(./img/3dbackground.jpeg) no-repeat fixed top center;
 background-size: 100% 100%;
-padding: 0;
-margin: 0;
 }
 
 h1 {
- color: rgb(162, 209, 162);
+ color: rgb(66, 80, 202);
  font-size: 5em;
  margin: 0 0.5em 0 0;
  padding: 0;
+ text-shadow: 0.1em 0.1em rgb(176, 74, 216);
 }
 
 h2 {
- color: rgb(71, 131, 172);
- font-size: 3em;
+ color: rgb(21, 24, 26);
+ font-size: 2em;
  padding: 0;
- margin: 0 0 0 0;
+ margin: 2em .4em .4em .4em;
 }
 
 
+p{
+ font-size: 1.2em;
+ line-height: 1.4em;
+ color: rgb(226, 223, 153);
+ padding: 0px;
+ margin: 0px 0.5em 0.75em 0px;
+}
+
+header {
+ width: 100vw;
+/* text-align: left; */
+/* background: url(./img/04header.jpg); */
+/* margin: 2em 2em 2em 2em; */
+background-image: linear-gradient(to bottom right, rgb(125, 141, 125), rgb(13, 218, 13))
+}
+
+
+.nav-container{
+ display: flex;
+ justify-content: flex-start;
+ width: 100%;
+ height: 100%;
+ 
+}
+
+#navbar{
+ align-self: flex-start;
+ margin: 0 5em 0 0;
+}
+
+.navigation {
+ align-self: flex-start;
+ display: flex;
+ flex-direction: row;
+ list-style: none;
+}
+
+
+.header-text {
+ align-self: flex-end;
+ margin: 0 0 0 10em;
+}
+
+
+
+a, a:visted {
+ color: #C64322;
+}
+
+a :hover {
+ color: #333;
+}
+
+
+.funandmainflex{
+ display: flex;
+}
+
+.funfacts{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: large;
+ width: 25%;
+ padding: 1em;
+ margin-left: 4em;
+ margin-top: 5em;
+ margin-right: 2em;
+ border: 1px solid white;
+}
+
+
+.mainsection{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+ margin: 4em 0 0 0;
+
+}
+
+.threeD {
+ text-align: center;
+ margin-top: 1em;
+ margin-bottom: 1em;
+ border: 1px inset black;
+}
+
+footer {
+ text-align: center;
+ margin: 0;
+}
