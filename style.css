@@ -25,6 +25,10 @@ h2 {
  margin: 2em .4em .4em .4em;
 }
 
+h3 {
+ color: black;
+ font-size: 2em;
+}
 
 p{
  font-size: 1.2em;
@@ -63,8 +67,13 @@ background-image: linear-gradient(to bottom right, rgb(125, 141, 125), rgb(13, 2
  list-style: none;
 }
 
+
+
 #search {
  margin: 1em;
+ background-color: black;
+ border: 2px dotted rgb(78, 55, 180);
+
 }
 
 
